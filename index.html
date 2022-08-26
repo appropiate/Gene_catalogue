@@ -1,0 +1,60 @@
+<html>
+<head>
+    <title>Servicio web de consulta de genes</title>
+    <meta charset="utf-8">
+	<link rel = "stylesheet" type = "text/css" href = "styles.css" />
+</head>
+
+
+<body>
+<h1>
+  Servicio web de consulta de genes
+</h1>
+ <p>
+ <table>
+ 
+ <form action=servidorpec2.php method=post> 
+
+<tr>
+<th> 
+1. Seleccione organismo:
+ 
+<select name=organismo>
+  <option value=1>Humano</option>
+  <option value=2>Ratón</option>
+  <option value=3>Pez zebra</option>
+  <option value=4>Melanogaster</option>
+</select>
+</th>
+</tr>
+<br><br>
+ 
+<tr>
+<th> 
+2. Introduzca simbolo del gen: 
+<input type=text name=gen>
+</th>
+</tr>
+<br><br>
+<tr>
+<th>
+<input type=submit value=Enviar>
+</th>
+</tr>
+</form>
+</table>
+</p>
+<p class=footer>
+Web server designed and implemented by
+Sergio Carracedo (2019)
+</a>
+<br><br>
+<img src= ./dna.jpg height=50>
+
+</p>
+
+</body>
+
+</html>
+
+
